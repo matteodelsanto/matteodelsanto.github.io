@@ -1,8 +1,217 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>matteodelsanto.github.io</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live Resume :: Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/live-resume.css">
 </head>
+
 <body>
-    <p>under construction...</p>
+    <header>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
+            SHARE</button>
+        <nav class="collapsible-nav" id="collapsible-nav">
+            <a href="index.html" class="nav-link active">HOME</a>
+            <a href="resume.html" class="nav-link">PUBLICATIONS</a>
+            <!-- <a href="portfolio.html" class="nav-link">TEACHING</a>
+            <a href="blog.html" class="nav-link">BLOG</a>
+            <a href="contact.html" class="nav-link">CONTACT</a> -->
+        </nav>
+        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
+    </header>
+    <div class="content-wrapper">
+        <aside>
+            <div class="profile-img-wrapper">
+                <img src="assets/images/me.jpg" alt="profile">
+            </div>
+            <h1 class="profile-name">Matteo Delsanto</h1>
+            <div class="text-center">
+                <span class="badge badge-white badge-pill profile-designation">Postdoctoral Researcher</span>
+            </div>
+            <nav class="social-links">
+                <!-- <a href="#!" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-behance"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-dribbble"></i></a>
+                <a href="#!" class="social-link"><i class="fab fa-github"></i></a> -->
+                <a href="https://github.com/matteodelsanto" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/matteo-delsanto/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://loop.frontiersin.org/people/2984331/overview" class="social-link"><img src="./assets/images/logo_frontiers_grey.png" style="height: 100%;"></a>
+                <a href="https://scholar.google.com/citations?user=xQXPKVsAAAAJ&hl=it" class="social-link"><svg style="fill: #0067f6;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/></svg></a>
+                
+            </nav>
+            <div class="widget">
+                <h5 class="widget-title">personal information</h5>
+                <div class="widget-content">
+                    <p>matteo.delsanto@unito.it</p>
+                    <p>Computer Science Department</p>
+                    <p>University of Turin</p>
+                    <p>Italy</p>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">LANGUAGES</h5>
+                        <p>Italian : Native</p>
+                        <p>English : Fluent</p>
+                    </div>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">INTERESTS</h5>
+                        <p>NLP</p>
+                        <p>Computational Linguistics</p>
+                        <p>Artificial Intelligence</p>
+                        <p>Machine Learning</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="intro-section">
+                <h2 class="section-title" style="text-transform: none;"><span style="color: #0067f6;">Hi</span>, I'm Matteo Delsanto!</h2>
+                <p>I'm Matteo Delsanto, a postdoctoral researcher at the Department of Computer Science at the University of Turin, where I also earned my PhD in Computer Science. My academic journey began with a bachelor's and master's degree, both awarded summa cum laude, and has since led me to specialize in Natural <em>Language Processing (NLP)</em> and <em>Computational Linguistics</em>.<br>
+                My research focuses on lexical semantics, leveraging Transformers, word and sense embeddings, and Language Models in general, to analyze and process language. I work extensively in Knowledge Representation and Reasoning, Information Extraction, and Information Retrieval—exploring tasks such as word sense disambiguation, semantic similarity, and entity linking. Beyond theoretical advancements, I actively contribute to developing datasets and semantic resources for experimental research.<br>
+                Much of my work bridges computational linguistics with real-world applications, particularly in <em>medical</em> and <em>legal</em> domains. I've collaborated on projects involving the analysis of <em>psychiatric patient language</em>, information extraction from emergency room records, and the processing of legal documents to enhance accessibility and comprehension. My research has led to publications in international conferences and journals, and in collaborations with other universities.
+                Teaching is also part of my work: I've led contract courses in the master’s program in Language Technologies and Digital Humanities and regularly supervise beachelor and master’s theses.</p>
+                <!-- <a href="#!" class="btn btn-primary btn-hire-me">HIRE ME</a> -->
+            </section>
+            <section class="resume-section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="section-title">EDUCATION</h2>
+                        <ul class="time-line">
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2020 - 2023</span>
+                                <h6 class="time-line-item-title">PhD In Computer Science</h6>
+                                <p class="time-line-item-subtitle">Computer Science Department, University of Turin</p>
+                                <p class="time-line-item-content">Thesis: Exploring Transformers: Journey Through Language Processing Architectures and Tasks</p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2017 - 2020</span>
+                                <h6 class="time-line-item-title">Master Degree in Computer Science</h6>
+                                <p class="time-line-item-subtitle">Computer Science Department, University of Turin</p>
+                                <p class="time-line-item-content">110/110 cum laude</p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2014 - 2017</span>
+                                <h6 class="time-line-item-title">Beachelor Degree in Computer Science</h6>
+                                <p class="time-line-item-subtitle">Computer Science Department, University of Turin</p>
+                                <p class="time-line-item-content">110/110 cum laude</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="section-title">Research Group</h2>
+                        <div class="row">
+                            <div class="media service-card col-12">
+                                <div class="service-icon">
+                                    <img src="assets/images/ccc-logo.png" alt="target" style="width: 100%;">
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="service-title">Content Centered Computing - Research Group</h5>
+                                    <p class="service-description">AI esearch @ Computer Science Department<br><a href="https://cs.unito.it/do/gruppi.pl/Show?_id=453y">Official page</a> - <a href="https://ccc.di.unito.it/">Meetings page</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="services-section">
+                <h6 class="section-subtitle">WHAT I DO</h6>
+                <h2 class="section-title">SERVICES</h2>
+                <div class="row">
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/001-target.svg" alt="target">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">web designing</h5>
+                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                                tortor.</p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/003-idea.svg" alt="bulb">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Graphic design</h5>
+                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                                tortor.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/002-development.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Development</h5>
+                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                                tortor.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/004-smartphone.svg" alt="smartphone">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Mobile design</h5>
+                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                                tortor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!-- <section class="testimonial-section">
+                <div id="testimonialCarousel" class="testimonial-carousel carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p class="testimonial-content">Mauris magna sapien, pharetra consectetur fringilla vitae,
+                                interdum sed tortor.</p>
+                            <img src="assets/images/Profile.png" alt="profile" class="testimonial-img">
+                            <p class="testimonial-name">Nout Golstein</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="testimonial-content">Mauris magna sapien, pharetra consectetur fringilla vitae,
+                                interdum sed tortor.</p>
+                            <img src="assets/images/Profile.png" alt="profile" class="testimonial-img">
+                            <p class="testimonial-name">Nout Golstein</p>
+                        </div>
+                        <div class="carousel-item">
+                            <p class="testimonial-content">Mauris magna sapien, pharetra consectetur fringilla vitae,
+                                interdum sed tortor.</p>
+                            <img src="assets/images/Profile.png" alt="profile" class="testimonial-img">
+                            <p class="testimonial-name">Nout Golstein</p>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                        <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </section> -->
+
+            <footer>Template from <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer">BootstrapDash</a></footer>
+        </main>
+    </div>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/live-resume.js"></script>
 </body>
+
 </html>
