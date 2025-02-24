@@ -1,5 +1,15 @@
 [
     {
+        "organization": "CEUR-WS",
+        "year": "2024",
+        "number": "3877",
+        "booktitle": "CEUR WORKSHOP PROCEEDINGS",
+        "author": "Scozzaro, CALOGERO JERIK and Delsanto, Matteo and Mastropaolo, Antonio and Mensa, Enrico and Revelli, Luisa and Radicioni, Daniele P and others",
+        "title": "On the Reform of the Italian Constitution: an Interdisciplinary Text Readability Analysis",
+        "ENTRYTYPE": "conference",
+        "ID": "scozzaro2024reform"
+    },
+    {
         "pages": "1--27",
         "doi": "10.1016/j.csl.2024.101691",
         "url": "https://www.sciencedirect.com/science/article/pii/S0885230824000743",
@@ -7,7 +17,7 @@
         "abstract": "Introduction: Automatic linguistic analysis can provide cost-effective, valuable clues to the diagnosis of cognitive difficulties and to therapeutic practice, and hence impact positively on wellbeing. In this work, we analyzed transcribed conversations between elderly individuals living with dementia and healthcare professionals. The material came from the Anchise 2022 Corpus, a large collection of transcripts of conversations in Italian recorded in naturalistic conditions. The aim of the work was to test the effectiveness of a number of automatic analyzes in finding correlations with the progression of dementia in individuals with cognitive decline as measured by the Mini-Mental State Examination (MMSE) score, which is the only psychometric-clinical information available on the participants in the conversations. Healthy controls (HC) were not considered in this study, nor does the corpus itself include HCs. The main innovation and strength of the work consists in the high ecological validity of the language analyzed (most of the literature to date concerns controlled language experiments); in the use of Italian (there is little corpora for Italian); in the size of the analyzed data (more than 200 conversations were considered); in the adoption of a wide range of NLP methods, that span from traditional morphosyntactic investigation to deep linguistic models for conducting analyzes such as through perplexity, sentiment (polarity) and emotions. Methods: Analyzing real-world interactions not designed with computational analysis in mind, such as is the case of the Anchise Corpus, is particularly challenging. To achieve the research goals, a wide variety of tools were employed. These included traditional morphosyntactic analysis based on digital linguistic biomarkers (DLBs), transformer-based language models, sentiment and emotion analysis, and perplexity metrics. Analyzes were conducted both on the continuous range of MMSE values and on the severe/moderate/mild categorization suggested by AIFA (Italian Medicines Agency) guidelines, based on MMSE threshold values. Results and discussion: Correlations between MMSE and individual DLBs were weak, up to 0.19 for positive, and-0.21 for negative correlation values. Nevertheless, some correlations were statistically significant and consistent with the literature, suggesting that people with a greater degree of impairment tend to show a reduced vocabulary, to have anomia, to adopt a more informal linguist register, and to display a simplified use of verbs, with a decrease in the use of participles, gerunds, subjunctive moods, modal verbs, as well as a flattening in the use of the tenses towards the present to the detriment of the past. The-0.26 inverse correlation between perplexity and MMSE suggests that perplexity captures slightly more specific linguistic information, which can complement the MMSE scores. In the categorization tasks, the classifier based on DLBs achieved an F1 score of 0.79 for binary classification between SEVERE and MILD, and 0.61 for multi-label categorization. Sentiment and emotion analyzes showed inverse trends for joy while MMSE scores suggested that less impaired individuals were less joyful, or more \"negative\", than others. Considering the real-world context, this is consistent with the hypothesis of a gradual reduction in awareness in individuals affected by dementia.Finally, integrating various profiles of analysis has been proved to be effective in offering a wider picture of linguistic and communication deficits, as well as more precise data regarding the progression of dementia.",
         "volume": "89",
         "journal": "COMPUTER SPEECH AND LANGUAGE",
-        "year": "9999",
+        "year": "2025",
         "title": "A computational analysis of transcribed speech of people living with dementia: The Anchise 2022 Corpus",
         "author": "Sigona, Francesco and Radicioni, Daniele P. and Gili Fivela, Barbara and Colla, Davide and Delsanto, Matteo and Mensa, Enrico and Bolioli, Andrea and Vigorelli, Pietro",
         "ENTRYTYPE": "article",
