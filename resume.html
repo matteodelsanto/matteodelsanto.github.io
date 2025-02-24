@@ -106,7 +106,9 @@
         async function loadArticles() {
             try {
                 const response = await fetch("https://matteodelsanto.github.io/assets/articles/articles.json"); // Sostituisci con il percorso corretto del file JSON
-                const articles = await response.json();
+                var articles = await response.json();
+
+                articles = JSON.parse()
 
                 const container = document.getElementById("articles-container");
                 container.innerHTML = ""; // Pulisce il contenuto precedente
