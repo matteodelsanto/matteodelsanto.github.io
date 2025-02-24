@@ -126,7 +126,7 @@
                         const labelClass = article.ENTRYTYPE === "article" ? "journal-label" : "conference-label";
                 
                         const articleHTML = `
-                            <div class="elem border p-3 mb-3">
+                            <div class="elem">
                                 <div class="row">
                                     <div class="col-11">
                                         <h3>${title}</h3>
@@ -134,8 +134,8 @@
                                         <p><i>In ${journal}. ${volume}, ${year}</i></p>
                                     </div>
                                     <div class="col-1 d-flex flex-column align-items-end">
-                                        <span class="label ${labelClass} badge text-bg-primary">${labelText}</span>
-                                        <span class="label label-info badge text-bg-primary mt-2">
+                                        <span class="label ${labelClass} badge">${labelText}</span>
+                                        <span class="label label-info badge">
                                             <a href="${url}" target="_blank"><i class="fas fa-link"></i></a>
                                         </span>
                                     </div>
