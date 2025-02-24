@@ -7661,10 +7661,12 @@ main {
     main .resume-section .label-conference{
       background-color:#ffdf7e;
       color: white;
+      margin-bottom: 0.5rem;
     }
     main .resume-section .label-article{
       background-color:rgba(72, 180, 97, 0.5);
       color: white;
+      margin-bottom: 0.5rem;
     }
     main .resume-section .label-info{
       background-color: #0067f6;

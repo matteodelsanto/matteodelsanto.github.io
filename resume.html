@@ -142,12 +142,18 @@
                     }
                 });
                 articles_to_show.sort((a, b) => (a.year < b.year) ? 1 : -1)
+
+                let last_year = 0
                 articles_to_show.forEach(article => {
-                
-                        const articleHTML = `
+                    let articleHTML = "";
+                    if (article.year == last_year) {
+                        articleHTML = `
                             <div class="elem">
                                 <div class="row">
-                                    <div class="col-11">
+                                    <div class="col-1">
+                                        
+                                    </div>
+                                    <div class="col-10">
                                         <h3>${article.title}</h3>
                                         <h6>${article.author}</h6>
                                         <p><i>In ${article.journal}. ${article.volume}, ${article.year}</i></p>
@@ -160,9 +166,29 @@
                                     </div>
                                 </div>
                             </div>`;
-                
-                        container.innerHTML += articleHTML;
-                    
+                    }else{
+                        articleHTML = `
+                            <div class="elem">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <span class="badge">${article.year}</span>
+                                    </div>
+                                    <div class="col-10">
+                                        <h3>${article.title}</h3>
+                                        <h6>${article.author}</h6>
+                                        <p><i>In ${article.journal}. ${article.volume}, ${article.year}</i></p>
+                                    </div>
+                                    <div class="col-1 d-flex flex-column align-items-end">
+                                        <span class="label ${article.labelClass} badge">${article.labelText}</span>
+                                        <span class="label label-info badge">
+                                            <a href="${article.url}" target="_blank"><i class="fas fa-link"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>`;
+                    }
+                    container.innerHTML += articleHTML;
+                    last_year = article.year
                 });
             } catch (error) {
                 console.error("Errore nel caricamento degli articoli:", error);
